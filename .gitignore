@@ -1,3 +1,7 @@
+# setuptools_scm
+
+src/sample_package/version.py
+
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,vscode,vim,pycharm+all,jupyternotebooks
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,vscode,vim,pycharm+all,jupyternotebooks

@@ -31,12 +31,13 @@ test:
 
 run:
   script:
+    - python -m pip install wheel "setuptools_scm[toml]>=3.4"
     - python setup.py bdist_wheel
     - python setup.py sdist
     # an alternative approach is to install and run:
   artifacts:
     paths:
-      - dist/*.whl
+      - dist/*
 
 pre_commit:
   script:
